@@ -1,0 +1,15 @@
+@mixin break-point($breakpoint)
+  @if $breakpoint == 'xs'
+    @media screen and (min-width: #{$breakpoint-xs-value}) and (max-width: calc(#{$breakpoint-sm-value} - 1px))
+      @content
+  @else if $breakpoint == 'sm'
+    @media screen and (min-width: #{$breakpoint-sm-value}) and (max-width: calc(#{$breakpoint-md-value} - 1px))
+      @content
+  @else if $breakpoint == 'md'
+    @media screen and (min-width: #{$breakpoint-md-value}) and (max-width: calc(#{$breakpoint-lg-value} - 1px))
+      @content
+  @else if $breakpoint == 'lg'
+    @media screen and (min-width: #{$breakpoint-lg-value})
+      @content
+  @else
+    @warn 'please check your breakpoint argument'

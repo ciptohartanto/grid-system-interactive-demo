@@ -1,0 +1,33 @@
+{
+  "article": {
+    "article_section_head": {
+      "article_title": "Hi, Let's feel good today!",
+      "article_subtitle": "This is the subtitle of this very cool article",
+      "article_author": "John Dough"
+    },
+    "article_section_body": [
+
+      {
+        "article_body_content": {
+          "article_body_image": "https://source.unsplash.com/collection/190727/",
+          "article_body_title": "This is title of Card#1",
+          "article_body_subtitle": "This is subtitle of Card#1"
+        }
+      },
+      {
+        "article_body_content": {
+          "article_body_image": "https://source.unsplash.com/collection/190725/",
+          "article_body_title": "This is title of Card#2",
+          "article_body_subtitle": "This is subtitle of Card#2"
+        }
+      },
+      {
+        "article_body_content": {
+          "article_body_image": "https://source.unsplash.com/collection/190728/",
+          "article_body_title": "This is title of Card#3",
+          "article_body_subtitle": "This is subtitle of Card#3"
+        }
+      }
+    ]
+  }
+}

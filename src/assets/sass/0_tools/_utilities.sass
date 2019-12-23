@@ -1,0 +1,15 @@
+@function px2rem($px-value)
+  @return $px-value / $default-font-size * 1rem
+
+
+@mixin ellipsis-multiline($lines)
+  overflow: hidden
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  white-space: normal
+  -webkit-line-clamp: $lines
+
+@mixin break-longtext
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
